@@ -1,0 +1,6 @@
+    <node name="base_controller" pkg="robot_base_controller" type="robot_base_controller">
+    	<param name="com_number" value="/dev/ttyUSB7"/>
+	<param name="base_controll" value="false"/>
+	<param name="bro_odom" value="false"/>
+	<param name="pub_odom" value="true"/>
+    </node>

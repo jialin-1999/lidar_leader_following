@@ -1,0 +1,5 @@
+<launch>
+    <node pkg = "grid_tracking" name = "grid_tracking"
+          type = "grid_tracking" output = "screen"/>
+
+</launch>
