@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="lidar_calibration" name = "lidar_calibration"
+        type="lidar_calibration" output="screen"/>
+</launch>
