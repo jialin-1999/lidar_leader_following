@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="nodelet" type="nodelet" name="heightmap_nodelet"
+        args="load height_map/HeightMapNodelet nodelet_manager" output="screen"/>
+</launch>

@@ -1,0 +1,11 @@
+int32 x
+int32 y
+int32 num_obs
+float64 min_z
+float64 max_z
+float64 mean_z
+float64[] p_x
+float64[] p_y
+float64[] p_z
+float64[] p_r
+float64[] p_i

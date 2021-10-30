@@ -1,0 +1,10 @@
+<launch>
+    <node pkg = "height_map" name = "height_map"
+          type = "height_map" output = "screen"/>
+    <param name = "min_points" value = "3"/>
+    <param name = "mean_threshold" value = "0.05"/>
+    <param name = "diff_terrain" value = "0.08"/>
+    <param name = "high_terrain" value = "0.05"/>
+    <param name = "low_terrain" value = "-0.05"/>
+    <param name = "max_height" value = "2.0"/>
+</launch>
