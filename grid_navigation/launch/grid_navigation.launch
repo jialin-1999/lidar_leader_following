@@ -1,0 +1,4 @@
+<launch>
+    <node pkg = "grid_navigation" name = "grid_navigation_node" type = "grid_navigation_node" output = "screen"/>
+
+</launch>
